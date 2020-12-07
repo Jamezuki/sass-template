@@ -1,0 +1,27 @@
+table {
+    margin: 20px;
+    color: $color-1;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: thin solid;
+}
+
+th {
+    background-color: $color-2;
+}
+
+td {
+    background-color: $color-3;
+}
+
+.ti {
+    color: $color-4;
+    background: $color-1;
+    text-align: center;
+    border: thin solid $color-1;
+}

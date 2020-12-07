@@ -1,1 +1,1 @@
-# project-structure
+# Sass template

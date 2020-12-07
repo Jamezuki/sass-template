@@ -1,0 +1,23 @@
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: item;
+    ol {
+        padding-left: 30px;
+    }
+}
+
+ol > li::before {
+    margin-right: 10px;
+    counter-increment: item;
+    content: counter(item) ".";
+    display: inline-block;
+}
+
+ol li li::before {
+    margin-right: 10px;
+    counter-increment: item;
+    content: counters(item, ".");
+    display: inline-block;
+}
